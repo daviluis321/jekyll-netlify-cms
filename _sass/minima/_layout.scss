@@ -28,6 +28,22 @@ img {
 	box-sizing: border-box;
 }
 
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
 /*Menu*/
 
 .menu-bg {
@@ -75,10 +91,11 @@ img {
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  background: #2c70ff;
+  color:white !important;
+  border-top: 5px solid #2c70ff;
+  border-bottom: 1px solid #2c70ff;
   min-height: $spacing-unit * 1.865;
-
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -258,7 +275,7 @@ img {
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(3.0);
 }
 
 .post-list {
@@ -277,7 +294,7 @@ img {
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.4);
 }
 
 
