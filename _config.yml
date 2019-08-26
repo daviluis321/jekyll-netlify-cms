@@ -19,8 +19,15 @@ description: Experências no Mundo da Tecnologia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.daviluis.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
+paginate: 2 #6
+comments: true
+paginate_path: "/page/:num"
+
 # Build settings
 theme: minima
+
+plugins:
+  - jekyll-paginate-v2
 
 # minima theme settings
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -45,7 +52,7 @@ github_username:  daviluis321
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jekyll 
+# instagram_username: jekyll na
 # linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -70,3 +77,4 @@ github_username:  daviluis321
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
