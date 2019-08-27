@@ -29,6 +29,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate-v2 (2.0.0)
+      jekyll (~> 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
@@ -70,10 +72,11 @@ DEPENDENCIES
   concurrent-ruby (~> 1.1.1)
   jekyll (~> 3.8)
   jekyll-feed (~> 0.11)
+  jekyll-paginate-v2 (~> 2.0)
   jekyll-seo-tag (~> 2.5)
   jekyll-sitemap (~> 1.2)
   minima (~> 2.5)
   tzinfo-data
 
 BUNDLED WITH
-   1.17.1
+   1.17.3

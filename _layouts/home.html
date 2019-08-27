@@ -1,23 +1,19 @@
 ---
 layout: default2
+pagination:
+  enabled: true
 ---
 
 <div class="home">
-
     <div id="search-demo-container">
         <input class="form-control" type="text" id="search-input" placeholder="Pesquisar...">
         <ol id="results-container"></ol>
-      </div>
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
+    </div>
+  
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Postagens" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -34,9 +30,19 @@ layout: default2
       <div class="border-divider"></div>
       {%- endfor -%}
     </ul>
-
-    
-
+  
   {%- endif -%}
 
+  {% if paginator.page_trail %}
+  {% for trail in paginator.page_trail %}
+  {% if trail.num == 1 %}
+  <li class="pagination"><a href="/index/" title="{{trail.title}}">{{ trail.num }}</a></li>
+{% else %}
+    <li class="pagination" {% if page.url == trail.path %}class="selected"{% endif %}>
+        <a href="/{{ trail.num }}/index/" title="{{trail.title}}">{{ trail.num }}</a>
+    </li>
+  {% endif %}
+  {% endfor %}
+{% endif %}
+  
 </div>
