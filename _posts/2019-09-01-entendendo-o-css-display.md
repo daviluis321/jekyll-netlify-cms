@@ -13,25 +13,14 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 
 ![Box Model](/img/uploads/box-model.svg "Box Model")
 
- Descomplicando cada parte da figura:
+*  Descomplicando cada parte da figura:
+* Content - O conteúdo da caixa, onde o texto e as imagens aparecem
+* Padding - Espaço dentro do Container 
+* Border - Uma borda em volta do elemento
+* Margin -  Espaço fora do Container
+* Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde você pode fazer uma cópia e começa a testar essas propriedades do box model.
 
-<li>
-
-<ul>
-
-Content - O conteúdo da caixa, onde o texto e as imagens aparecem
-
-</ul>
-
-</li>
-
-Padding - Espaço dentro do Container 
-
-Border - Uma borda em volta do elemento
-
-Margin -  Espaço fora do Container
-
-Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde você pode fazer uma cópia e começa a testar essas propriedades do box model.
+\------------------------
 
 <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="daviluis321" data-slug-hash="pozrqKw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Box Model">
 
