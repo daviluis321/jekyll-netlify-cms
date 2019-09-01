@@ -21,5 +21,3 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 * Margin -  Espaço fora do Container
 
 Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde você pode fazer uma cópia e começa a testar essas propriedades do box model.
-
-
