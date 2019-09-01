@@ -77,6 +77,8 @@ Mas se você não gostar do comportamento do box model, o css tem um recurso ond
 
 </p>
 
+<br>
+
 Agora agora o nosso elemento, mesmo com border e padding vai ter 250px, é claro ainda vai precisa com margin que a gente colocou de 20px.
 
 Para finalizar espero que você entendido como funciona o box model e que isso a fazer os seus layouts, além disso recomendo você sempre utilizar ferramentas como pager rule e o brackets por exemplo, para verificar o tamanho real dos seus elementos
