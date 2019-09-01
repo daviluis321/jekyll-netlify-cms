@@ -15,7 +15,7 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 
  Descomplicando cada parte da figura:
 
-
+<br>
 
 \- Content : O conteúdo da caixa, onde o texto e as imagens aparecem
 
@@ -27,7 +27,7 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 
 Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde você pode fazer uma cópia e começa a testar essas propriedades do box model.
 
-
+<br>
 
 <div>
 
