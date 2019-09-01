@@ -15,10 +15,21 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 
  Descomplicando cada parte da figura:
 
-* Content - O conteúdo da caixa, onde o texto e as imagens aparecem
-* Padding - Espaço dentro do Container 
-* Border - Uma borda em volta do elemento
-* Margin -  Espaço fora do Container
+<li>
+
+<ul>
+
+Content - O conteúdo da caixa, onde o texto e as imagens aparecem
+
+</ul>
+
+</li>
+
+Padding - Espaço dentro do Container 
+
+Border - Uma borda em volta do elemento
+
+Margin -  Espaço fora do Container
 
 Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde você pode fazer uma cópia e começa a testar essas propriedades do box model.
 
