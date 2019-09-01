@@ -92,6 +92,13 @@ img {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+p{
+  margin-bottom: 15px;
+}
 
 /*Menu*/
 

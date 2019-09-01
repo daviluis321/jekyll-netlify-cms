@@ -53,13 +53,13 @@ Para entender isso melhor vamos analisar o cálculo incluindo todos os elementos
 
 250px (width)
 
-+ 50px + 50px (left + right padding)
++50px + 50px (left + right padding)
 
-+ 10px + 10px  (left + right border)
++10px + 10px  (left + right border)
 
-+ 2px (left + right margin)
++2px (left + right margin)
 
-\= 410px  
+= 410px  
 
 Então olha o problema que isso pode gerar, porque muitas vezes  eu queria um elemento de 300px por exemplo e não sabia o cálculo do box model então acabava que eu sempre quebrava os layouts. 
 
