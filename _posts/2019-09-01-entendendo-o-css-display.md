@@ -41,7 +41,7 @@ Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde voc
 
 </div>
 
-
+<br>
 
 No código acima definimos a largura de 250px  através da propriedade width, mas graças a box model temos 370px do nosso elemento e também temos o margin de 20px cada lado, dando 410px, que o elemento tá ocupando. 
 
