@@ -31,5 +31,3 @@ Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde voc
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
-
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
