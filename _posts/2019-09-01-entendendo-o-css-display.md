@@ -15,8 +15,6 @@ Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por
 
  Descomplicando cada parte da figura:
 
-<br>
-
 \- Content : O conteúdo da caixa, onde o texto e as imagens aparecem
 
 \-Padding : Espaço dentro do Container 
