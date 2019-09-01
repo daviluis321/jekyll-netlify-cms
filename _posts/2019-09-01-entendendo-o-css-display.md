@@ -83,9 +83,9 @@ Para finalizar espero que você entendido como funciona o box model e que isso a
 
 **Referências**
 
-****[**https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model**](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model)****
+<https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model>
 
-****[**https://www.w3.org/TR/CSS2/box.html**](https://www.w3.org/TR/CSS2/box.html)****
+<https://www.w3.org/TR/CSS2/box.html>
 
 <https://tableless.github.io/iniciantes/manual/css/box-model.html>
 
