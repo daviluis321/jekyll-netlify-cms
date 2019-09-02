@@ -1,0 +1,11 @@
+{
+    "name": "Davi Luis",
+    "short_name": "DLuis",
+    "theme_color": "#2c70ff",
+    "background_color": "#2c70ff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/?utm_source=homescreen",
+    "lang": "pt-BR",
+    "orientation": "any"
+  }
