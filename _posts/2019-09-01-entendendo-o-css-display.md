@@ -6,6 +6,7 @@ subtitle: >-
   conhecer bem as características, por isso estou fazendo esse texto sobre box
   model, que vai ser parte de uma série de posts relacionados ao css ...
 categories: css
+comments: true
 ---
 Quando eu comecei estudar css, acabava quebrando diversos layouts, por não conhecer bem as características, por isso estou fazendo esse texto sobre box model, que vai ser parte de uma série de posts relacionados ao css.
 
