@@ -2,5 +2,6 @@
   "short_name" : "Dluis",
   "description" : "Blog sobre Experiências no Mundo da Tecnologia",
   "start_url" : "/",
+  "theme_color": "#2c70ff",
   "icons" : [
   ]}
