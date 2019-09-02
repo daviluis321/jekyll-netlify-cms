@@ -11,7 +11,7 @@ Quando eu comecei estudar css, acabava quebrando diversos layouts, por não conh
 
 Bem  cada elemento dentro do seu site possui é uma caixa retangular formada por diversas propriedades e denominada de box model, como na figura abaixo.
 
-![Box Model](/img/uploads/box-model-1-1-.png "Box Model")
+![Box Model](/img/uploads/box-model.svg "Box Model")
 
  Descomplicando cada parte da figura:
 
@@ -45,7 +45,11 @@ Agora que entendemos a teoria, abaixo vou deixar um exemplo na prática onde voc
 
 No código acima definimos a largura de 250px  através da propriedade width, mas graças a box model temos 370px do nosso elemento e também temos o margin de 20px cada lado, dando 410px, que o elemento tá ocupando. 
 
+
+
 Para entender isso melhor vamos analisar o cálculo incluindo todos os elementos do box model  abaixo:
+
+
 
 250px (width)
 
@@ -55,13 +59,11 @@ Para entender isso melhor vamos analisar o cálculo incluindo todos os elementos
 
 +2px (left + right margin)
 
-\= 410px  
+= 410px  
 
 Então olha o problema que isso pode gerar, porque muitas vezes  eu queria um elemento de 300px por exemplo e não sabia o cálculo do box model então acabava que eu sempre quebrava os layouts. 
 
 Mas se você não gostar do comportamento do box model, o css tem um recurso onde você pode alterar o mesmo, porque padrão nosso elemento está definido content-box, que possui essa característica de adicionar mais pixels ao elemento e pode resolvido definindo o box-sizing = border box; igual no código abaixo:
-
-<br>
 
 <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="daviluis321" data-slug-hash="zYOdQXO" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Box Model 2">
 
